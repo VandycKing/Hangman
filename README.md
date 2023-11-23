@@ -1,10 +1,10 @@
 ###  Project Title
 
-###  Table of Contents, if file is long
+### Table of Contents, if file is long
 
-###  Add a decription of the project
+### Add a decription of the project
 
-###  Installation instructions
+### Installation instructions
 
 # Usage instructions
 
