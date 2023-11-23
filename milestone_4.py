@@ -1,7 +1,7 @@
 import random
 class Hangman:
 
-    def __init__(self, word_list = None, num_lives = 5):
+    def __init__(self, word_list, num_lives = 5):
         self.word_list = word_list 
         self.num_lives = num_lives
         self.word = random.choice(self.word_list)
@@ -21,8 +21,8 @@ class Hangman:
             self.num_letters - 1
         else:
             self.num_lives - 1
-            print("Sorry, \"{obj_guess}\" is not in the word")
-            print("You have {num_lives} lives left")
+            print(f"Sorry, \"{obj_guess}\" is not in the word")
+            print(f"You have {self.num_lives} lives left")
             
 
 
