@@ -47,3 +47,5 @@ class Hangman:
 
 obj_hangman = Hangman(["apples", "mangoes"])
 obj_hangman.ask_for_input()
+
+
